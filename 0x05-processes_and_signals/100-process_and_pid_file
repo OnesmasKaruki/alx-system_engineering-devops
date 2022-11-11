@@ -5,7 +5,7 @@
 # Displays "Y U no love me?!" when receiving SIGINT signal
 # Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUI
 
-finisher () {
+finsher () {
 		rm /var/run/myscript.pid
 		exit
 }
