@@ -6,3 +6,4 @@ nt lines containing bash word
 Process and PID file
 Display the PID
 Display To infinity and beyond indefinetely
+Terminate running process on 4-to-infinity-and-beyond
