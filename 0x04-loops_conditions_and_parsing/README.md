@@ -2,3 +2,4 @@ Creat a SSH RSA key pair
 Print Best School ten times
 Print best school 10 time using while loop
 Print Best school ten times using untill loop
+Display Best School 10 times but on the 9th iteration print Hi followed by Best School
