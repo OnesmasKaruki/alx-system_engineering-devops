@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Display 4 and the bad luck from china for 4th iteration loop
+# Display 9 and then bad luck fromjapoan for 9th loop oteration
+# Display 17 and then bad luck from Italy for 17th loop iteration
+
+count=1
+while [ $count -le 20 ]
+do
+	case $count in
+		4)
+			echo "$count"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "$count"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$count"
+			echo "bad luck to Italy"
+			;;
+		*)
+			echo "$count"
+	esac
+	count=$((count+1))
+done
