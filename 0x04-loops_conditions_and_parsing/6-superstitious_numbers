@@ -17,7 +17,7 @@ do
 			;;
 		17)
 			echo "$count"
-			echo "bad luck to Italy"
+			echo "bad luck from Italy"
 			;;
 		*)
 			echo "$count"
