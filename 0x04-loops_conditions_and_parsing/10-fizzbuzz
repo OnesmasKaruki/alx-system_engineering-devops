@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Display FizzBuzz when the number is multiple of 3 and 5
+# Display Fizz when the number is multiple of 3
+# Display Buzz when number is multiple of 5
+# Display number in a list format
+i=1
+while [ $i -lt 101 ]
+do
+	if [ $((i&15)) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((i%3)) -eq 0 ]
+	then
+		echo "Fizz"
+	elif [ $((i%5)) -eq 0 ]
+	then
+		echo "Buzz"
+	else
+		echo "$((i))"
+	fi
+	i=$((i+1))
+done
