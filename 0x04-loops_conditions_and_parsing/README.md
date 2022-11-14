@@ -7,3 +7,4 @@ Loop from 1 to 10 given condition
 Using case statement
 FizzBuzz Implementation
 Dispalay content of the file /etc/passwd
+Tell a story about /etc/passwd
