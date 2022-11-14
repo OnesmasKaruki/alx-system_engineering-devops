@@ -6,3 +6,4 @@ Display Best School 10 times but on the 9th iteration print Hi followed by Best 
 Loop from 1 to 10 given condition
 Using case statement
 FizzBuzz Implementation
+Dispalay content of the file /etc/passwd
